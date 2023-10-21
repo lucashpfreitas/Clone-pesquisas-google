@@ -1,0 +1,250 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Cabeçalho */
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: auto;
+    border-bottom: 0.5px solid #D3D3D3;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 0px 30px 5px 30px;
+}
+
+.logo img{
+    width: 100px;
+    height: 90px;
+    object-fit: contain;
+}
+
+.pesquisa{
+    display: flex;
+    align-items: center;
+}
+
+.pesquisa input{
+    width: 680px;
+    height: 50px;
+    border-radius: 60px;
+    border: 0.5px solid #D3D3D3;
+   /*background-image: url(../images/keyboard.png);
+    background-repeat: no-repeat;*/
+}
+
+.login{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    margin-right: 30px;
+}
+
+.login .menu_login{
+    display: flex;
+    align-items: center;
+}
+
+.login .menu_login img{
+    object-fit: contain;
+}
+
+.login .menu_login ul li{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    width: 990px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul, li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul{
+    display: flex;
+}
+
+
+nav a{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: #727272;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 12px;
+    margin-bottom: 10px;
+}
+
+nav .active a, nav a:hover{
+    color: #39aae1;
+}
+
+nav .active{
+    border-bottom: 3px solid #39aae1;
+}
+
+/* Sessão principal */
+
+section{
+    display: flex;
+}
+
+.container3{
+    display: flex; 
+    flex-direction: column;
+    width: 100%; 
+
+}
+
+.widget{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.widget .widget_total{
+    display: flex;
+    margin-left: 150px;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: #727272;
+}
+
+.widget .widget_resultados{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    padding-left: 25px;
+    padding-top: 12px;
+}
+
+.widget .widget_resultados a h3{
+    margin-bottom: 8px;
+    color:mediumblue
+}
+
+.widget .widget_resultados a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.widget .widget_resultados p{
+    font-size: 14px;
+}
+
+/* Sessão secundária */
+
+.container4{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.container4 .texto_pesquisa{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 150px;
+    padding-left: 25px;
+    padding-top: 12px;
+}
+
+.container4 .pesquisa_opcoes{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-bottom: 30px;
+    padding-left: 25px;
+    padding-top: 12px;
+}
+
+.container4 .pesquisa_opcoes a{
+    text-decoration: none;
+    color: mediumblue;
+}
+
+.container4 .pesquisa_opcoes a:hover{
+    text-decoration: underline;
+    color: mediumblue;
+}
+
+.container4 .pesquisa_opcoes .opcoes1, .opcoes2{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.container4 .paginas{
+    display: flex;
+}
+
+.container4 .paginas img{
+    width: 90px;
+    height: 60px;
+    object-fit: contain;
+    margin-left: 350px;
+}
+
+/* Rodapé */
+
+footer{
+    display: flex;
+    height: auto;
+    background-color:#D3D3D3
+}
+
+.container5{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.container5 .texto_footer{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    padding-left: 25px;
+    padding-top: 12px;
+
+}
+
+.container5 .texto_footer div{
+    display: flex;
+    justify-content: center;
+}
+
+
+
